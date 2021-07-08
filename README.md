@@ -24,7 +24,7 @@
 
   First, clone this repo to your local machine. Then, ensure MongoDB and Node.js is installed on your computer. Next, run npm install from the root directory of where the repo was cloned in the command line. Once completed, run node server and connect to localhost:3001 via browser.  
 
-  [Link to GitHub Repository:](https://github.com/UPye/BudgetTracker)
+  [Link to GitHub Repository](https://github.com/UPye/BudgetTracker)
   
   ## Languages
   
