@@ -40,6 +40,7 @@ self.addEventListener('install', evt => {
 
 // Activate the service worker and remove old data from the cache
 self.addEventListener('activate', evt => {
+  preventDefault();
   console.log('Service worker has been activated');
   evt.waitUntil(
     caches.keys().then(keyList => {
