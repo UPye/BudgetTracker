@@ -19,6 +19,7 @@
   },
   "homepage": "https://pye-budgets.herokuapp.com/",
   "dependencies": {
+    "chart.js": "^3.4.1",
     "compression": "^1.7.4",
     "express": "^4.17.1",
     "lite-server": "^2.6.1",
