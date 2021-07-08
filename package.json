@@ -21,6 +21,7 @@
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
+    "lite-server": "^2.6.1",
     "moment": "^2.29.1",
     "mongodb": "^3.6.8",
     "mongoose": "^5.13.2",
