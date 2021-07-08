@@ -28,5 +28,8 @@
     "morgan": "^1.10.0",
     "service-worker": "*"
   },
-  "keywords": []
+  "keywords": [],
+  "devDependencies": {
+    "webpack-pwa-manifest": "^4.3.0"
+  }
 }
