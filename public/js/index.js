@@ -42,17 +42,17 @@ function populateTable() {
 
 function populateChart() {
   // copy array and reverse it
-  let reversed = transactions.slice().reverse();
+  let reverse = transactions.slice().reverse();
   let sum = 0;
 
   // create date labels for chart
-  let labels = reversed.map(t => {
+  let labels = reverse.map(t => {
     let date = new Date(t.date);
     return `${date.getMonth() + 1}/${date.getDate()}/${date.getFullYear()}`;
   });
 
   // create incremental values for chart
-  let data = reversed.map(t => {
+  let data = reverse.map(t => {
     sum += parseInt(t.value);
     return sum;
   });
