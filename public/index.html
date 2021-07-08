@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/styles.css">
 
   <title>Budget Tracker</title>
+  <link rel="manifest" href="manifest.json">
 </head>
 <body>
   <div class="wrapper">
@@ -41,7 +42,6 @@
     <canvas id="myChart"></canvas>
   </div>
 
-
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
   <script src="js/index.js"></script>
   <script src="js/idb.js"></script>
@@ -53,6 +53,6 @@
           .catch(error => console.log("Service Worker registration failed:", error));
       }
     })();
-  </script>
+    </script>
 </body>
 </html>
